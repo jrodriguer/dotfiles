@@ -1,6 +1,12 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "model": "opencode-go/deepseek-v4-flash",
+  "model": "opencode-go/deepseek-v4-pro",
   "autoupdate": true,
-  "lsp": true
+  "lsp": true,
+  "mcp": {
+    "respectaso": {
+      "command": "/Applications/RespectASO.app/Contents/MacOS/respectaso-mcp",
+      "enabled": true 
+    }
+  }
 }
