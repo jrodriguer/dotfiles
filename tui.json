@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/tui.json",
+  "keybinds": {
+    "theme_list": "none",
+    "display_thinking": "<leader>k",
+    "tool_details": "<leader>t"
+  },
+  "plugin": [
+    "@cortexkit/opencode-magic-context@latest"
+  ]
+}
+
