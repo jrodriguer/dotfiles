@@ -6,12 +6,12 @@ description: >-
   stack, following existing patterns and conventions. Examples: <example>
   Context: Builder has clarified requirements and needs implementation. user:
   "Create a REST API endpoint for user registration with email validation"
-  assistant: "I'll delegate to @backend-dev for implementation" <commentary> API
-  creation is an implementation task that should go to backend-dev.
+  assistant: "I'll delegate to @coder for implementation" <commentary> API
+  creation is an implementation task that should go to coder.
   </commentary> </example> <example> Context: Database changes are needed. user:
   "Add a migrations table and a new 'status' column to the orders table"
-  assistant: "Let me hand this off to @backend-dev for schema implementation"
-  <commentary> Database schema changes are a core backend-dev responsibility.
+  assistant: "Let me hand this off to @coder for schema implementation"
+  <commentary> Database schema changes are a core coder responsibility.
   </commentary> </example>
 temperature: 0.2
 mode: subagent
